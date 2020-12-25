@@ -1,0 +1,41 @@
+из случайного импорта randint
+
+классный человек:
+    количество = 0
+    def _ _ init__(self, c):
+        self.id = Person.count
+        Персона.граф += 1
+        self.command = c
+
+класс герой(персона):
+    def _ _ init__(self, c):
+        Person._ _ init__(self, c)
+        self.level = 1
+    def uplevel(self):
+        self.level += 1
+класс солдат(персона):
+    def _ _ init__(self, c):
+        Person._ _ init__(self, c)
+        self.my_hero = нет
+    def follow(self, hero):
+        self.my_hero = hero.id
+
+h1 = Герой(1)
+h2 = герой(2)
+армия 1 = []
+армия 2 = []
+для i в диапазоне(20):
+    n = randint(1, 2)
+    если n = = 1:
+        army1.append(солдат(n))
+    остальное:
+        army2.append(солдат(n))
+печать(len(army1), len(army2))
+
+если len(army1) >> len(army2):
+    h1. верхний уровень()
+остальное:
+    h2. верхний уровень()
+
+army1[0].follow(h1)
+print(army1[0].id, h1.id)

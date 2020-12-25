@@ -1,0 +1,15 @@
+класс Т1:
+    n = 10
+    def total(self, N):
+        self.total = int(self.n) + int(N)
+
+класс Т2:
+    def total(self, s):
+        self.total = len(str(s))
+
+t1 = T1()
+t2 = T2()
+t1.всего(45)
+t2.всего(45)
+печать(t1.total)
+печать(t2.total)

@@ -1,0 +1,32 @@
+ ученик класса:
+    def _ _ init__(self, fio, dr, pol, number, post, university, fackulty, spec, grade, group = 'adey'):
+        self.fio = fio
+        self.dr = dr
+        self.pol = pol
+        self.number = число
+        self.post = сообщение
+        self.university = университет
+        self.fackulty = fackulty
+        self.spec = spec
+        self.grade = класс
+        self.group = группа
+
+
+    def _ _ del_ _(self):
+        print("отчислен студент {} {}".format(self.fio, d[self.grade]))
+
+     дисплей def(self):
+        возвращение self.fio, self.dr, self.pol, self.number, self.post, self.university, self.fackulty, self.spec, d[self.grade], self.group
+
+
+
+
+d = {2: 'Двоешник', 4: 'хорошист', 5: 'отличнык'}
+s1 = Student('Иванов Иван Иванович', "21.08.2000", 'm', '913', 'h@gmail', 'МГПУ', 'инженерии', '3.09', 5)
+печать(s1.дисплей())
+s2 = Student('Петрова Алина Петровна', "21.09.2000", 'ж', '903', 'д@gmail', 'МГПУ', 'инженерии', '3.09', 2)
+печать(s2.дисплей())
+s3 = Student('Сидорова анастасия владимировна', "26.08.2000", 'ж', '813', '0@gmail', 'МГПУ', 'инженерии', '3.09', 4)
+печать(s3.display())
+del s2
+входная информация()

@@ -1,0 +1,20 @@
+классный человек:
+    def _ _ init__(self, n, s, q = 1):
+        self.name = n
+        self.фамилия = s
+        self.skill = q
+    def _ _ del_ _(self):
+        print('До свидания, мистер', self.name, self.surname)
+    def info(self):
+        возвращение '{1} {0}, {2}'.формат(self.name, self.фамилия, self.skill)
+
+
+worker = Person('И', 'Котов', 3)
+helper = Person('Д', 'Мышев', 1)
+maker = Person('О', 'Рисов', 2)
+печать(worker.info())
+печать(helper.info())
+печать(maker.info())
+дель хелпер
+print('Конец программы')
+входная информация()

@@ -1,0 +1,15 @@
+class прямоугольник:
+    def _ _ init__(self, w = 0.5, h = 1):
+        self.width = w
+        self.height = h
+    def square(self):
+        возврат self.width*self.height
+
+rec1= прямоугольник(5, 2)
+rec2 = прямоугольник()
+rec3 = прямоугольник(3)
+rec4 = прямоугольник(h = 4)
+печать(rec1.square())
+печать(rec2.square())
+печать(rec3.square())
+печать(rec4.square())

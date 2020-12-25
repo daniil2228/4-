@@ -1,0 +1,33 @@
+ таблица классов:
+    def _ _ init__(self, l, w, h):
+        self.length = l
+        self.width = w
+        self.height = h
+
+класс KitchenTable(таблица):
+    def _ _ init__(self, l, w, h, p):
+        self.length = l
+        self.width = w
+        self.height = h
+        self.places = p
+    def square(self):
+        возврат self.length*self.width
+
+
+класс DeskTable(таблица):
+    def square(self):
+        возврат self.width * self.length
+
+класс компьютерный стол(таблица):
+    def square(self, e):
+        return DeskTable.square(self) - e
+
+ct = компьютерныйстол (2, 1, 1)
+печать(ct.square(0.3))
+
+t1 = KitchenTable(2, 2, 0.7, 1)
+печать(T1.квадрат())
+t2 = DeskTable(1.5, 0.8, 0.75)
+печать(T2.квадрат())
+t3 = кухонныйгарнитур (1, 1.2, 0.8, 1)
+печать(T3.square())
